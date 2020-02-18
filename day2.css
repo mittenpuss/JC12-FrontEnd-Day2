@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+:root{
+    --warnaprimary: rgb(102, 38, 38);
+}
+
+
+/*header start */
+.header{
+    background-color: rgb(248, 59, 59);
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header div{
+    padding-right: 10px;
+}
+
+.isiheader{
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu div{
+    margin-right: 30px;
+}
+
+
+/*header end */
+
+.container2{
+    display: flex;
+    border: solid 1px black;
+}
+
+.container2 .card{
+    height: 300px;
+    width: 100px;
+    margin: 30px;
+    flex-basis: 20%;
+    justify-content: space-between;
+    background-color: blueviolet;
+    border-radius: 2%;
+    
+}
+
+
+.card .gambar{
+    height: 70%;
+    border: solid 1px black;
+    background-color: var(--warnaprimary);
+}
+
+
+.container1{
+background-color: rgb(255, 223, 176);
+height: 50vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.container1 div{
+    font-size: 30px;
+    color: rgb(21, 168, 132);
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    line-height: 180px;
+    flex-direction: row;
+    background-color: rgb(235, 132, 35);
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    
+    align-items: center;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.container div{
+    height: 200px;
+    width: 20%;
+    background-color: aquamarine;
+    font-size: 40px;
+    margin-right: 1px;
+}
+
+.container div:hover{
+    cursor: pointer;
+    background-color: rgb(209, 178, 0);
+    transition: 700ms;
+
+}
